@@ -38,7 +38,8 @@ This repository contains automation test scripts using **Selenium WebDriver** an
 
 Tests in `selenium-tests/tests/`:
 
-- `add-delete-workflow.test.js` – adds and deletes each item in one test
+-`login.test.js` - logs in the todo app with username and password
+- `add-delete-workflow.test.js` – adds and deletes each item in json
 - Screenshots saved on test failure
 - POM files:
   - `LoginPage.js`
