@@ -4,12 +4,15 @@
   "description": "",
   "main": "LoginPage.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/*.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "selenium-webdriver": "^4.32.0"
+  },
+  "devDependencies": {
+    "mocha": "^11.4.0"
   }
 }

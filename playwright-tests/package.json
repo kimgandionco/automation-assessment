@@ -1,7 +1,6 @@
 {
   "name": "playwright-tests",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,11 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.52.0"
-  }
+  },
+  "dependencies": {
+    "fsevents": "^2.3.2",
+    "playwright": "^1.52.0",
+    "playwright-core": "^1.52.0"
+  },
+  "description": ""
 }
